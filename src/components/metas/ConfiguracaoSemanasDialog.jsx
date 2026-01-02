@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { PlusCircle, XCircle } from 'lucide-react';
-import { format } from 'date-fns';
+import { format, parseISO } from 'date-fns';
 
 export default function ConfiguracaoSemanasDialog({ isOpen, onClose, config, onSave, month }) {
     const [draftConfig, setDraftConfig] = useState(config);

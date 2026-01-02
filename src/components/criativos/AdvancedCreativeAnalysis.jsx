@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { DollarSign, CalendarCheck2, Star, Search, Eye } from 'lucide-react';
+import { AnimatePresence, motion } from 'framer-motion';
 import CreativePreviewModal from './CreativePreviewModal';
 import { Criativo } from '@/entities/Criativo';
 

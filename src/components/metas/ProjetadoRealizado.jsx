@@ -12,7 +12,7 @@ import { Badge } from '@/components/ui/badge';
 // import ProjecaoMetas from './ProjecaoMetas'; // This import might become unnecessary depending on full app structure
 import { LocalPeriodPicker } from "@/components/dashboard/filters/IndependentPeriod";
 import CompactDateRangePicker from "@/components/dashboard/filters/CompactDateRangePicker";
-import { startOfMonth, endOfMonth, isWithinInterval } from "date-fns";
+import { startOfMonth, endOfMonth, isWithinInterval, subMonths } from "date-fns";
 
 const mockRealizedData = {
     'Este mês': {

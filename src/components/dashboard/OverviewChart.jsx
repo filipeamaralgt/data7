@@ -15,7 +15,7 @@ import {
   LineChart,
   LabelList,
 } from "recharts";
-import { startOfDay, endOfDay, subMonths, differenceInDays } from "date-fns";
+import { startOfDay, endOfDay, subMonths, startOfYear, endOfYear, subYears, differenceInDays } from "date-fns";
 import HeaderRow from "./HeaderRow";
 
 

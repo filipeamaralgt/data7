@@ -1,9 +1,10 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import { Button } from '@/components/ui/button';
-import { Bot, Star, LayoutGrid, Users, Palette, Search, TrendingUp, DollarSign, Edit, BookText, Copy } from 'lucide-react';
+import { Bot, Check, Star, LayoutGrid, Users, Palette, FileText, Search, TrendingUp, DollarSign, Edit, BookText, Copy } from 'lucide-react';
 import { Publico } from '@/entities/Publico';
 import { Criativo } from '@/entities/Criativo';
+import { Campanha } from '@/entities/Campanha';
 import { Estrategia } from '@/entities/Estrategia';
 import { EstrategiaOca } from '@/entities/EstrategiaOca';
 import { Nomenclatura } from '@/entities/Nomenclatura';

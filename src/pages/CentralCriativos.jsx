@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Plus, Image as ImageIcon, Video, FileText, Loader2, MoreHorizontal, Edit, Trash2, Eye, Filter, Folder as FolderIcon, ArrowDownUp, Check, UploadCloud, Computer, CornerDownLeft, Search, ChevronLeft, ChevronRight, Download, Share2, Link as LinkIcon, Star, Palette, Info, LayoutGrid, List } from 'lucide-react';
+import { Plus, Image as ImageIcon, Video, FileText, Loader2, MoreHorizontal, Edit, Trash2, Eye, Filter, Folder as FolderIcon, ArrowDownUp, Check, UploadCloud, Computer, ArrowLeft, CornerDownLeft, Search, ChevronLeft, ChevronRight, Download, Share2, Link as LinkIcon, Star, Palette, Info, LayoutGrid, List } from 'lucide-react';
 import { Criativo } from '@/entities/Criativo';
 import { PastaCriativos } from '@/entities/PastaCriativos';
 import { ActivityLog } from '@/entities/ActivityLog'; // Import new entity
@@ -11,7 +11,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/components/ui/use-toast';
-import { AnimatePresence } from 'framer-motion'; // Added AnimatePresence
+import { motion, AnimatePresence } from 'framer-motion'; // Added AnimatePresence
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger, DropdownMenuSeparator, DropdownMenuSub, DropdownMenuSubTrigger, DropdownMenuSubContent, DropdownMenuRadioGroup, DropdownMenuRadioItem } from '@/components/ui/dropdown-menu';
 import { base44 } from "@/api/base44Client";
 import FunnelSelect from "@/components/dashboard/filters/FunnelSelect";

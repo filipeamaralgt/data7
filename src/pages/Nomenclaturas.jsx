@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Nomenclatura } from '@/entities/Nomenclatura';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Plus, Copy, Edit, Trash2 } from 'lucide-react';
+import { Plus, BookText, Copy, Edit, Trash2 } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import NomenclaturaForm from '@/components/nomenclaturas/NomenclaturaForm';

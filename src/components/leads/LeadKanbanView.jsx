@@ -2,8 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
 import { Card, CardContent } from '@/components/ui/card';
-import { User, DollarSign } from 'lucide-react';
+import { User, Phone, Mail, DollarSign } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import { base44 } from '@/api/base44Client';
+import { toast } from "@/components/ui/use-toast";
 
 const columns = {
     "Oportunidade": [],

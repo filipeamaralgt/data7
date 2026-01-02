@@ -3,6 +3,7 @@ import React, { useState, useMemo } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ChipGroup, ChipButton } from "@/components/dashboard/Chip";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LabelList } from 'recharts';
+import { AnimatePresence, motion } from 'framer-motion';
 
 const CustomTooltip = ({ active, payload, label, barColor2 }) => {
     if (active && payload && payload.length) {

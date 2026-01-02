@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useMemo } from "react";
 
 /* ---------- 1) Estado de período totalmente LOCAL por chave ---------- */
 

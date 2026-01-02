@@ -5,12 +5,12 @@ import { Button } from '@/components/ui/button';
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Loader2, CheckCircle, AlertTriangle, Send, Calendar, DollarSign, BarChart2, TrendingDown, TrendingUp, History, ShieldAlert, RotateCcw, Brain, Info } from 'lucide-react';
+import { Loader2, CheckCircle, AlertTriangle, Send, Calendar, DollarSign, BarChart2, TrendingDown, TrendingUp, History, ShieldAlert, X, RotateCcw, Brain, Info } from 'lucide-react';
 import { useAppContext } from "@/components/context/AppContext";
 import { formatDistanceToNow } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { useToast } from "@/components/ui/use-toast";
 import HistoricoPagamentoDialog from './HistoricoPagamentoDialog';
 

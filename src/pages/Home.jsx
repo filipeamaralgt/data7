@@ -1,7 +1,9 @@
 
 import React, { useMemo, useState } from "react";
 import { MetricCard } from "@/components/metrics-delta";
-import { Banknote, TrendingUp, BarChart, RefreshCcw, Coins, Minus, TrendingDown, Eye } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Banknote, TrendingUp, BarChart, RefreshCcw, Download, Coins, Minus, TrendingDown, Eye } from "lucide-react";
 import { ChartsBottom } from "@/components/dashboard/ChartsBottom";
 import { useAppContext } from "@/components/context/AppContext";
 import { LocalPeriodPicker } from "@/components/dashboard/filters/IndependentPeriod";

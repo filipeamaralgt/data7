@@ -5,6 +5,7 @@ import { Settings, Plug, MessageCircle } from 'lucide-react';
 import IntegrationCard from '@/components/configuracoes/IntegrationCard';
 import GeneralSettings from '@/components/configuracoes/GeneralSettings';
 import WhatsappSettings from '@/components/configuracoes/WhatsappSettings';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 
 const integrations = [
     {

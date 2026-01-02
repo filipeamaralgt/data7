@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useAppContext } from "@/components/context/AppContext";
 import AICard from '@/components/automacoes/AICard';
-import { Brain, Send, ShieldAlert, Play, Pause } from 'lucide-react';
+import { Brain, Send, ShieldAlert, Palette, Play, Pause } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Loader2, CheckCircle, AlertTriangle, Info } from 'lucide-react';
 import { useToast } from "@/components/ui/use-toast";

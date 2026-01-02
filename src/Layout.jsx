@@ -82,7 +82,7 @@ function LayoutContent({ children }) {
       setIsLoading(false); // Stop loading only after both are done
     });
 
-     
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []); // Empty dependency array ensures this runs only once.
 
   // 2. Effect for persisting theme changes to the backend
@@ -100,7 +100,7 @@ function LayoutContent({ children }) {
       }
     };
     persistTheme();
-     
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [theme]); // This effect runs only when the global theme changes
 
 

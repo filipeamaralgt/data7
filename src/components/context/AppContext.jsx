@@ -1,6 +1,6 @@
 
 import React, { createContext, useContext, useState, useEffect, useCallback, useMemo } from 'react';
-import { endOfMonth, endOfQuarter, endOfYear, startOfMonth, startOfQuarter, startOfToday, startOfYear, subDays } from "date-fns";
+import { addDays, endOfMonth, endOfQuarter, endOfYear, startOfMonth, startOfQuarter, startOfToday, startOfYear, subDays } from "date-fns";
 
 // --- Date Helper Functions ---
 

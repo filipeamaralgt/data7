@@ -4,6 +4,7 @@ import {
   PieChart, Pie, Cell, Sector, Tooltip as RechartsTooltip,
 } from "recharts";
 import React, { useState, useMemo } from "react";
+import FunnelCard from "../funis/FunnelCard";
 import { useAppContext } from "@/components/context/AppContext";
 import CompactDateRangePicker from "@/components/dashboard/filters/CompactDateRangePicker";
 import { LocalPeriodPicker } from "@/components/dashboard/filters/IndependentPeriod";

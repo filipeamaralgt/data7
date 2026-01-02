@@ -3,7 +3,7 @@ import { Dialog, DialogContent, DialogHeader, DialogFooter, DialogTitle, DialogD
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
-import { Sparkles, Pencil, Check } from 'lucide-react';
+import { Sparkles, Loader2, TrendingUp, TrendingDown, Minus, Pencil, Check } from 'lucide-react';
 import { DeltaBadge } from '@/components/metrics-delta';
 
 const formatCurrency = (value) => value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });

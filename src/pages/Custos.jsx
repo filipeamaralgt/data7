@@ -1,11 +1,12 @@
+
 import React, { useState, useMemo } from 'react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import OverviewChart from '@/components/dashboard/OverviewChart';
-import AdanIA from '@/components/relatorios/AdanIA';
+import { AdanIA } from '@/components/relatorios/AdanIA';
 import { DollarSign, MousePointerClick, Users } from 'lucide-react';
 import { useLocalPeriod } from "@/components/dashboard/filters/IndependentPeriod";
 import CompactDateRangePicker from "@/components/dashboard/filters/CompactDateRangePicker";
-import { subDays } from "date-fns";
+import { startOfMonth, endOfMonth, subDays } from "date-fns";
 import { ChipGroup, ChipButton } from '@/components/dashboard/Chip';
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";

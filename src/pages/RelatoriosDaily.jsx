@@ -7,11 +7,11 @@ import MetricRow from '@/components/relatorios/MetricRow';
 import { pctDelta } from '@/components/metrics-delta';
 import {
     Flame, Lightbulb, Rocket, BarChart, Users, CalendarCheck, Target, TrendingUp, AlertTriangle,
-    CheckCircle, XCircle, CircleDollarSign, UserCheck, Percent, MousePointerClick,
+    CheckCircle, XCircle, CircleDollarSign, UserCheck, CalendarClock, Percent, MousePointerClick,
     Eye, UserPlus, DatabaseZap, ChevronLeft, ChevronRight, Brain, Video, MessageSquare, Fish,
     PlaySquare, DollarSign, FileCheck2, Share2, BookOpen, Phone, Building, HelpCircle, Calendar,
-    Settings2, RotateCcw, Layers, Gauge, Repeat, Hand, ShoppingCart, PlayCircle, Wallet, Info,
-    MessageCircleMore, Share, BarChart2, RadioTower, Link, Activity, VideoIcon
+    Settings2, RotateCcw, Trash2, Layers, Gauge, Repeat, Hand, ShoppingCart, PlayCircle, Wallet, Info,
+    MessageCircleMore, Share, BarChart2, RadioTower, Link, Users2, Activity, VideoIcon
 } from 'lucide-react';
 import FunnelSelect from '@/components/dashboard/filters/FunnelSelect';
 import { motion, AnimatePresence } from 'framer-motion';

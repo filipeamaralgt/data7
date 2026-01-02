@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { X, Folder as FolderIcon, FileText, Shield } from 'lucide-react';
+import { X, Folder as FolderIcon, FileText, Share2, Shield, Clock } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ActivityLog } from '@/entities/ActivityLog';
-import { Avatar, AvatarFallback } from '@/components/ui/avatar';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 const getInitials = (name = "") => {
     return name

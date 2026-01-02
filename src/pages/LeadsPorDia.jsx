@@ -2,6 +2,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { startOfMonth, endOfMonth, eachDayOfInterval, format, getDaysInMonth } from 'date-fns';
+import { ptBR } from 'date-fns/locale';
 import CompactDateRangePicker from "@/components/dashboard/filters/CompactDateRangePicker";
 import FunnelSelect from "@/components/dashboard/filters/FunnelSelect";
 import LeadsMetricCard from '@/components/leads/LeadsMetricCard';

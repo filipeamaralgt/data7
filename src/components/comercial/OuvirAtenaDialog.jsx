@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
-import { BrainCircuit, TrendingUp, AlertTriangle, Lightbulb } from 'lucide-react';
+import { BrainCircuit, Loader2, TrendingUp, AlertTriangle, Lightbulb } from 'lucide-react';
 import { InvokeLLM } from '@/integrations/Core';
 
 const LoadingState = () => (

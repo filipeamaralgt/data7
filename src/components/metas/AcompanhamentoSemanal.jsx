@@ -1,10 +1,11 @@
+
 import React, { useState, useMemo, useEffect } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Settings, CheckCircle2 } from 'lucide-react';
 import ConfiguracaoSemanasDialog from './ConfiguracaoSemanasDialog';
 import { Meta } from '@/entities/Meta';
-import { startOfMonth, endOfMonth, addDays, getMonth, getYear, isBefore, isAfter } from 'date-fns';
+import { format, startOfMonth, endOfMonth, addDays, getMonth, getFullYear, isBefore, isAfter } from 'date-fns';
 import CompactDateRangePicker from "@/components/dashboard/filters/CompactDateRangePicker";
 import { useAppContext } from "@/components/context/AppContext";
 import FunnelSelect from "@/components/dashboard/filters/FunnelSelect";
@@ -137,7 +138,7 @@ export default function AcompanhamentoSemanal() {
             const allGoals = await Meta.list('-ano -mes');
             const currentMonthGoals = allGoals.filter(g => 
                 g.mes === (getMonth(selectedMonthDate) + 1) && 
-                g.ano === getYear(selectedMonthDate)
+                g.ano === getFullYear(selectedMonthDate)
             );
             setMonthlyGoals(currentMonthGoals);
             
@@ -297,3 +298,4 @@ export default function AcompanhamentoSemanal() {
         </>
     );
 }
+
