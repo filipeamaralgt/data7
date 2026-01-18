@@ -1,65 +1,65 @@
-import Home from './pages/Home';
-import Funis from './pages/Funis';
-import Marketing from './pages/Marketing';
+import AgentesIA from './pages/AgentesIA';
+import BibliotecaPublicos from './pages/BibliotecaPublicos';
 import Campanhas from './pages/Campanhas';
-import Publicos from './pages/Publicos';
-import Criativos from './pages/Criativos';
+import CampanhasEventos from './pages/CampanhasEventos';
+import CampanhasPerpetuo from './pages/CampanhasPerpetuo';
+import CentralCriativos from './pages/CentralCriativos';
+import CentralLeads from './pages/CentralLeads';
 import Comercial from './pages/Comercial';
 import Configuracoes from './pages/Configuracoes';
-import Metas from './pages/Metas';
-import Relatorios from './pages/Relatorios';
-import Suporte from './pages/Suporte';
-import Perfil from './pages/Perfil';
-import RelatoriosDaily from './pages/RelatoriosDaily';
-import Notificacoes from './pages/Notificacoes';
-import LeadsPorDia from './pages/LeadsPorDia';
-import Custos from './pages/Custos';
-import Investimento from './pages/Investimento';
-import Seguidores from './pages/Seguidores';
-import AgentesIA from './pages/AgentesIA';
-import EstrategiasTrafego from './pages/EstrategiasTrafego';
-import Nomenclaturas from './pages/Nomenclaturas';
-import EstrategiasFunis from './pages/EstrategiasFunis';
-import CentralLeads from './pages/CentralLeads';
-import CampanhasPerpetuo from './pages/CampanhasPerpetuo';
-import CampanhasEventos from './pages/CampanhasEventos';
-import MapasMentais from './pages/MapasMentais';
 import CriadorFunis from './pages/CriadorFunis';
-import CentralCriativos from './pages/CentralCriativos';
-import BibliotecaPublicos from './pages/BibliotecaPublicos';
+import Criativos from './pages/Criativos';
+import Custos from './pages/Custos';
+import EstrategiasFunis from './pages/EstrategiasFunis';
+import EstrategiasTrafego from './pages/EstrategiasTrafego';
+import Funis from './pages/Funis';
+import Home from './pages/Home';
+import Investimento from './pages/Investimento';
+import LeadsPorDia from './pages/LeadsPorDia';
+import MapasMentais from './pages/MapasMentais';
+import Marketing from './pages/Marketing';
+import Metas from './pages/Metas';
+import Nomenclaturas from './pages/Nomenclaturas';
+import Notificacoes from './pages/Notificacoes';
+import Perfil from './pages/Perfil';
+import Publicos from './pages/Publicos';
+import Relatorios from './pages/Relatorios';
+import RelatoriosDaily from './pages/RelatoriosDaily';
+import Seguidores from './pages/Seguidores';
+import Suporte from './pages/Suporte';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
-    "Home": Home,
-    "Funis": Funis,
-    "Marketing": Marketing,
+    "AgentesIA": AgentesIA,
+    "BibliotecaPublicos": BibliotecaPublicos,
     "Campanhas": Campanhas,
-    "Publicos": Publicos,
-    "Criativos": Criativos,
+    "CampanhasEventos": CampanhasEventos,
+    "CampanhasPerpetuo": CampanhasPerpetuo,
+    "CentralCriativos": CentralCriativos,
+    "CentralLeads": CentralLeads,
     "Comercial": Comercial,
     "Configuracoes": Configuracoes,
-    "Metas": Metas,
-    "Relatorios": Relatorios,
-    "Suporte": Suporte,
-    "Perfil": Perfil,
-    "RelatoriosDaily": RelatoriosDaily,
-    "Notificacoes": Notificacoes,
-    "LeadsPorDia": LeadsPorDia,
-    "Custos": Custos,
-    "Investimento": Investimento,
-    "Seguidores": Seguidores,
-    "AgentesIA": AgentesIA,
-    "EstrategiasTrafego": EstrategiasTrafego,
-    "Nomenclaturas": Nomenclaturas,
-    "EstrategiasFunis": EstrategiasFunis,
-    "CentralLeads": CentralLeads,
-    "CampanhasPerpetuo": CampanhasPerpetuo,
-    "CampanhasEventos": CampanhasEventos,
-    "MapasMentais": MapasMentais,
     "CriadorFunis": CriadorFunis,
-    "CentralCriativos": CentralCriativos,
-    "BibliotecaPublicos": BibliotecaPublicos,
+    "Criativos": Criativos,
+    "Custos": Custos,
+    "EstrategiasFunis": EstrategiasFunis,
+    "EstrategiasTrafego": EstrategiasTrafego,
+    "Funis": Funis,
+    "Home": Home,
+    "Investimento": Investimento,
+    "LeadsPorDia": LeadsPorDia,
+    "MapasMentais": MapasMentais,
+    "Marketing": Marketing,
+    "Metas": Metas,
+    "Nomenclaturas": Nomenclaturas,
+    "Notificacoes": Notificacoes,
+    "Perfil": Perfil,
+    "Publicos": Publicos,
+    "Relatorios": Relatorios,
+    "RelatoriosDaily": RelatoriosDaily,
+    "Seguidores": Seguidores,
+    "Suporte": Suporte,
 }
 
 export const pagesConfig = {

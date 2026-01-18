@@ -1,8 +1,7 @@
-
 import React, { useState, useMemo } from 'react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import OverviewChart from '@/components/dashboard/OverviewChart';
-import { AdanIA } from '@/components/relatorios/AdanIA';
+import AdanIA from '@/components/relatorios/AdanIA';
 import { DollarSign, MousePointerClick, Users } from 'lucide-react';
 import { useLocalPeriod } from "@/components/dashboard/filters/IndependentPeriod";
 import CompactDateRangePicker from "@/components/dashboard/filters/CompactDateRangePicker";
