@@ -137,7 +137,7 @@ export default function AcompanhamentoSemanal() {
             const allGoals = await Meta.list('-ano -mes');
             const currentMonthGoals = allGoals.filter(g => 
                 g.mes === (getMonth(selectedMonthDate) + 1) && 
-                g.ano === getFullYear(selectedMonthDate)
+                g.ano === getYear(selectedMonthDate)
             );
             setMonthlyGoals(currentMonthGoals);
             
